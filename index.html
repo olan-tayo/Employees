@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Employees</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container1">
+        <h1>Employees</h1>
+
+        <div class="employees" id="employees"></div>
+      </div>
+      <div class="container2">
+        <div class="sub_container1" id="sub_container1"></div>
+
+        <div class="sub_container2">
+          <h2>Add a new employee</h2>
+          <form id="my-form">
+            <label for="first_name"
+              >First Name
+              <br />
+              <input type="text" name="first_name" required />
+            </label>
+
+            <br />
+            <label for="first_name"
+              >Last Name
+              <br />
+              <input type="text" name="last_name" required />
+            </label>
+
+            <br />
+            <label for="age"
+              >Age
+              <br />
+              <input type="number" name="age" min="1" required />
+            </label>
+
+            <br />
+            <label for="weight"
+              >Weight
+              <br />
+              <input type="type" name="weight" required />
+            </label>
+
+            <br />
+            <label for="height"
+              >Height
+              <br />
+              <input type="type" name="height" required />
+            </label>
+
+            <br />
+            <label for="nationality"
+              >Nationality
+              <br />
+              <input type="type" name="nationality" required />
+            </label>
+
+            <br />
+            <div class="btn_div">
+              <button class="btn" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="employees.js"></script>
+  </body>
+</html>
